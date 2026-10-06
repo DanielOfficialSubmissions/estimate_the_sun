@@ -1,0 +1,15 @@
+{
+  "elapsed_seconds": 8.695542375004152,
+  "fresh_fit_from_official_training_data": true,
+  "input_sha256": {
+    "sample_submission.csv": "fb2f91c243800989937dadbaab01b27092d4500cc7e27f5193d05072e5ca6261",
+    "test.csv": "9e4af01fb2a4ccc8e076c2e6d280066bb49cf4a7076ca0aa27e0d9ef1dcf6de1",
+    "train.csv": "7fe518d39ab84e6f90d13ec57de0fc5ad4cad01a7b2b6810577fe28d34f8615a"
+  },
+  "loaded_existing_model": false,
+  "lockbox_reselection": false,
+  "rows": 17520,
+  "source_sha256": "db9312ed258bd21f222838bb85900d1545c65b56a697257170b6e573c7291fe1",
+  "status": "passed",
+  "submission_sha256": "481488fe2a714a32023de6dd1ae20b4b0d5c3ffa3951a2f451e6d804e91a5aaf"
+}

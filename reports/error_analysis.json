@@ -1,0 +1,185 @@
+{
+  "purpose": "Post-selection error analysis; no changes to model or predictions",
+  "splits": {
+    "development": {
+      "bias_mw": -5.771035473516823,
+      "bootstrap_note": "2000 day resamples; ignores cross-day correlation; diagnostic only",
+      "error_quantiles_mw": {
+        "0.5": 3.5352607651854093,
+        "0.9": 445.68634140869494,
+        "0.95": 622.0299355115304,
+        "0.99": 1039.0298557305732,
+        "1": 2627.4560740692777
+      },
+      "mae_mw": 136.34249143579655,
+      "paired_day_bootstrap_gain_95_percent_mw": [
+        326.099405369994,
+        391.69028809149455
+      ],
+      "rows": 17568,
+      "segments": {
+        "cloud_bin": [
+          {
+            "baseline_mae_mw": 754.9814948980502,
+            "bias_mw": 4.091603193973054,
+            "mae_mw": 77.66596845386061,
+            "rows": 290,
+            "segment": "0_to_25"
+          },
+          {
+            "baseline_mae_mw": 319.0419638090159,
+            "bias_mw": -6.330054002134438,
+            "mae_mw": 113.38383560661921,
+            "rows": 7102,
+            "segment": "25_to_75"
+          },
+          {
+            "baseline_mae_mw": 610.3452631103684,
+            "bias_mw": -5.661956820149072,
+            "mae_mw": 154.0379086295444,
+            "rows": 10176,
+            "segment": "over_75"
+          }
+        ],
+        "irradiance_bin": [
+          {
+            "baseline_mae_mw": 2.0753789675256025,
+            "bias_mw": -0.09943245324781466,
+            "mae_mw": 0.2395424868387496,
+            "rows": 8188,
+            "segment": "zero_mean_ghi"
+          },
+          {
+            "baseline_mae_mw": 357.98681615817327,
+            "bias_mw": -21.384470720291272,
+            "mae_mw": 103.44651049501243,
+            "rows": 3186,
+            "segment": "0_to_100"
+          },
+          {
+            "baseline_mae_mw": 1220.114776855056,
+            "bias_mw": -18.139508801121927,
+            "mae_mw": 321.6512317872889,
+            "rows": 4408,
+            "segment": "100_to_400"
+          },
+          {
+            "baseline_mae_mw": 1209.3219049608315,
+            "bias_mw": 26.60609195892665,
+            "mae_mw": 361.63734798788266,
+            "rows": 1786,
+            "segment": "over_400"
+          }
+        ],
+        "minute": [
+          {
+            "baseline_mae_mw": 494.61458791539854,
+            "bias_mw": -11.63045966702349,
+            "mae_mw": 141.76523394097788,
+            "rows": 8784,
+            "segment": "0"
+          },
+          {
+            "baseline_mae_mw": 495.32781394060936,
+            "bias_mw": 0.08838871998984206,
+            "mae_mw": 130.91974893061519,
+            "rows": 8784,
+            "segment": "30"
+          }
+        ]
+      },
+      "zero_target_prediction_mae_mw": 0.09699428642057212,
+      "zero_target_rows": 8474
+    },
+    "lockbox": {
+      "bias_mw": 25.976413342536063,
+      "bootstrap_note": "2000 day resamples; ignores cross-day correlation; diagnostic only",
+      "error_quantiles_mw": {
+        "0.5": 3.631337622604063,
+        "0.9": 481.0487296926393,
+        "0.95": 661.6142045612071,
+        "0.99": 1074.4563201999915,
+        "1": 3933.2058192116283
+      },
+      "mae_mw": 146.45563886893473,
+      "paired_day_bootstrap_gain_95_percent_mw": [
+        423.68372786232925,
+        499.8423141603606
+      ],
+      "rows": 17520,
+      "segments": {
+        "cloud_bin": [
+          {
+            "baseline_mae_mw": 1002.7975017179109,
+            "bias_mw": 21.847082612681827,
+            "mae_mw": 113.92096977372262,
+            "rows": 1208,
+            "segment": "0_to_25"
+          },
+          {
+            "baseline_mae_mw": 532.8717815683723,
+            "bias_mw": 30.994899990419473,
+            "mae_mw": 140.68332902808535,
+            "rows": 8012,
+            "segment": "25_to_75"
+          },
+          {
+            "baseline_mae_mw": 620.8947736116689,
+            "bias_mw": 21.733053884562818,
+            "mae_mw": 156.76282281012766,
+            "rows": 8300,
+            "segment": "over_75"
+          }
+        ],
+        "irradiance_bin": [
+          {
+            "baseline_mae_mw": 2.265800700579615,
+            "bias_mw": -0.21034932521858404,
+            "mae_mw": 0.32358090799719336,
+            "rows": 8172,
+            "segment": "zero_mean_ghi"
+          },
+          {
+            "baseline_mae_mw": 423.72597147183546,
+            "bias_mw": 19.727066468168417,
+            "mae_mw": 124.55181758368965,
+            "rows": 3130,
+            "segment": "0_to_100"
+          },
+          {
+            "baseline_mae_mw": 1282.1271063696727,
+            "bias_mw": 58.09274290513145,
+            "mae_mw": 327.5323911307934,
+            "rows": 4134,
+            "segment": "100_to_400"
+          },
+          {
+            "baseline_mae_mw": 1914.1472385862185,
+            "bias_mw": 74.34002842213893,
+            "mae_mw": 393.18253158922005,
+            "rows": 2084,
+            "segment": "over_400"
+          }
+        ],
+        "minute": [
+          {
+            "baseline_mae_mw": 606.9072713570412,
+            "bias_mw": 21.308282076774816,
+            "mae_mw": 149.47250944580054,
+            "rows": 8760,
+            "segment": "0"
+          },
+          {
+            "baseline_mae_mw": 607.0396141427177,
+            "bias_mw": 30.644544608297313,
+            "mae_mw": 143.4387682920689,
+            "rows": 8760,
+            "segment": "30"
+          }
+        ]
+      },
+      "zero_target_prediction_mae_mw": 0.04357941346559641,
+      "zero_target_rows": 8454
+    }
+  }
+}

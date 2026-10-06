@@ -1,0 +1,15 @@
+{
+  "checks": [
+    "full schema, shuffled IDs, exact official calendar, missing weather and audit-before-run",
+    "all candidate fits, frozen selection, lockbox fits, full refit, model reload, submission validation",
+    "idempotent resume and journal recovery without changed predictions",
+    "tampered frozen selection rejected without changing journal"
+  ],
+  "data": "FABRICATED SOFTWARE FIXTURES ONLY \u2014 no competition score",
+  "elapsed_seconds": 45.91199345799396,
+  "max_threads": 2,
+  "python": "3.13.3",
+  "smoke_tree_iterations": 12,
+  "status": "passed",
+  "synthetic_files": "temporary directory deleted; no synthetic submission retained"
+}

@@ -1,0 +1,16 @@
+test_baseline_uses_only_fit_labels (test_pipeline.PipelineTests.test_baseline_uses_only_fit_labels) ... ok
+test_duplicate_headers (test_pipeline.PipelineTests.test_duplicate_headers) ... ok
+test_features_are_batch_independent (test_pipeline.PipelineTests.test_features_are_batch_independent) ... ok
+test_ids_and_targets_never_features (test_pipeline.PipelineTests.test_ids_and_targets_never_features) ... ok
+test_missing_and_all_missing_weather (test_pipeline.PipelineTests.test_missing_and_all_missing_weather) ... ok
+test_mw_weighted_loss_equivalence (test_pipeline.PipelineTests.test_mw_weighted_loss_equivalence) ... ok
+test_no_official_data_fails_clearly (test_pipeline.PipelineTests.test_no_official_data_fails_clearly) ... ok
+test_stability_rejects_single_season_gain (test_pipeline.PipelineTests.test_stability_rejects_single_season_gain) ... ok
+test_submission_roundtrip_and_rejections (test_pipeline.PipelineTests.test_submission_roundtrip_and_rejections) ... ok
+test_temporal_boundaries (test_pipeline.PipelineTests.test_temporal_boundaries) ... ok
+test_validation_rejects_bad_inputs (test_pipeline.PipelineTests.test_validation_rejects_bad_inputs) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 0.593s
+
+OK
