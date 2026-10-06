@@ -24,7 +24,7 @@ Organizer references 700.405 and 279.183 are measured on different hidden rows.
 - `reports/error_analysis.json`: quarter/month metrics are in model artifacts; this adds
   irradiance/cloud/half-hour segments, error tails and complete-day bootstrap diagnostics.
 - `reports/reproduction.json`: fresh training from CSV reproduced identical submission bytes.
-- `PROJECT_STATE.md`: status and precise next action; `RULES.md`: requirements and uncertainties.
+- `reports/SUBMISSION_READINESS.md`: status and precise next action; `RULES.md`: requirements and uncertainties.
 
 Final submission SHA-256:
 `481488fe2a714a32023de6dd1ae20b4b0d5c3ffa3951a2f451e6d804e91a5aaf`.
@@ -113,5 +113,5 @@ for the user's private use and must not be published or shared as a dataset.
 Exclude raw/processed data, fitted models, validation predictions and submission files
 from public repositories. `.gitignore` excludes them. The source attributions in RULES.md
 must remain. Dependency licences remain upstream; no project licence choice has been
-made on the user's behalf. Public code URL, entry/terms acceptance, on-page report filing,
-AI declaration and final submission selection remain user-controlled steps.
+made on the user's behalf. The owner has joined as DanielSolaris and authorized source publication. On-page report
+filing, AI declaration, prediction upload and final selection remain pending user actions.
